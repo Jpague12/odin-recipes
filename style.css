@@ -1,0 +1,29 @@
+/* style.css */
+
+
+#title {
+    font: bold;
+    color: rgb(64, 56, 51);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 80px;
+    background-color: rgb(224, 90, 126);
+    text-align: center;
+    border: 10px dotted rgb(55, 186, 43);
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 16px;
+    padding: 50px;
+}
+
+a {
+    color: rgb(217, 62, 62);
+    background-color: rgb(220, 203, 236);
+    margin: auto;
+    font-size: larger;
+    font-weight: 800;
+}
+a:hover {
+    color: yellowgreen;
+}
+
+

@@ -1,0 +1,29 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+}
+#title {
+    color: rgb(230, 75, 23);
+    font-weight: bolder;
+    font-size: 85px;
+}
+
+.h1 {
+    font-size: 30px;
+    color: rgb(108, 165, 16);
+}
+.h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(169, 29, 29);
+}
+.para.one {
+    font-size: 20px;
+    color: rgb(237, 59, 5);
+}
+.para.two {
+    font-size: 20px;
+}
+.para {
+    font-weight: lighter;
+}
