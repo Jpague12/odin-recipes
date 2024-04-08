@@ -1,34 +1,67 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+* {
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
 #title {
     font-size: 80px;
     color: rgb(85, 146, 25);
     font-weight: 900;
+    text-align: center;
+    background-color: aliceblue;
+    margin-bottom: 60px;
+    padding-top: 60px;
 }
+
+
 .li {
     font-size: 30px;
-    color: rgb(37, 111, 175);
-    font-style: oblique;
+    color: rgb(3, 7, 11);
+   
+    text-align: center;
+}
+.li.one {
+    
+    margin-top: 120px;
+    margin-bottom: 60px;
+    
+    
 }
 .heading {
-    font-size: medium;
-    color: rgb(15, 97, 70);
+    font-size: 50px;
     font-weight: 600;
+    padding-top: 100px;
+    margin-left: 30px;
+    
 }
 .heading.ingredients {
-    font-style: oblique;
+    color: rgb(15, 97, 70);
+    margin-top: 60px;
+    width: 275px;
+    padding-bottom: 20px;
+
 }
 .heading.directions {
-    background-color: chartreuse;
+    color: orangered;
+    margin-top: 60px;
+    width: 275px;
+    padding-bottom: 20px;
+    
+    
+    
+    
+    
+    
 }
 .list {
-    font-size: 60px;
-}
-.list.ingredients {
+    font-size: 20px;
+    border: dotted 20px rgb(169, 214, 45);
     color: rgb(187, 119, 36);
     font-weight: 800;
+    
 }
-.list.directions {
-    background-color: rgb(117, 117, 178);
-}
+
+
+
