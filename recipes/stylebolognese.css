@@ -1,38 +1,45 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(239, 168, 168);
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 #title {
     font-size: 80px;
     color: rgb(171, 12, 12);
-}
-.h3 {
-    color: aqua;
-}
-.heading {
-    font-style: italic;
-    font-size: 50px;
-    color: blue;
-}
-.paragraph {
-    font-style: italic;
-}
-.paragraph.one {
-    font-size: 30px;
-    color: aqua;
-}
-.paragraph.two {
-    color: chartreuse;
-}
-.list {
-    color: blueviolet;
+    text-align: center;
+    margin: 80px;
     font-weight: bolder;
 }
-.list.one {
-    font-style: italic;
-    color: black;
+.p {
+    color: rgb(83, 10, 10);
+    font-size: 30px;
+    margin-left: 80px;
+    
 }
-.paragraph,
-.heading, 
-#title {
-    background-color: chartreuse;
+.p.one {
+    padding-top: 30px;
 }
+.list,
+.h
+{
+    margin-left: 80px;
+    color: rgb(83, 10, 10);
+}
+.list {
+    font-size: 20px;
+    border: dotted 10px rgb(222, 155, 31);
+    margin-right: 700px;
+}
+.h {
+    font-size: 50px;
+}
+
+     
